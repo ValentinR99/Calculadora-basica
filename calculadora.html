@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="estiloCalculadora.css">
+    </head>
+    <body>
+        <form id="formulario">
+
+            <input type="number" name="" id="numero1" required placeholder="Numero 1">
+            <br><br>
+            <input type="number" name="" id="numero2" required placeholder="Numero 2">
+            <br><br>
+            <button type="button" class="botones" onclick="sumar()">Sumar</button>
+            <button type="button" class="botones" onclick="restar()">Restar</button>
+            <button type="button" class="botones" onclick="multiplicar()">Multiplicar</button>
+            <br><br>
+            <button type="button" class="botones" onclick="dividir()">Dividir</button>
+            <button type="button" class="botones" onclick="porcentaje()">Porcentaje</button>
+            <button type="button" class="botones" onclick="cuadrado()">Potencia</button>
+            <br><br>
+            <button type="button" class="botones" onclick="raizCuadrada()">Raiz Cuadrada</button>
+            <button type="button" class="botones" onclick="raizCubica()">Raiz Cubica</button>
+            <br><br>
+            <button class="botones" onclick="limpiar();">Limpiar</button>
+            <br><br>
+            <p> <span id="resultado"></span></p>
+            <script src="calculadora.js"></script>
+        </form>
+        
+    </body>
+    </body>
+</html>
